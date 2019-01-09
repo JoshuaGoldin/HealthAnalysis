@@ -17,7 +17,7 @@ def print_results(r, indexes):
     #print "row1", row1
     return tempobj;
 print "Step 1"
-db = MySQLdb.connect("localhost", "JoshuaGoldin", "chessmaster", "Health")
+db = MySQLdb.connect("localhost", "**********", "***********", "Health")
 print "Step 2"
 import json
 cursor = db.cursor()
